@@ -15,6 +15,9 @@ const foodList = [
     title: 'Spiced Pork and Pasta',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 45,
+    comments: 0,
+    like: 3,
   },
   {
     id: 2,
@@ -23,6 +26,9 @@ const foodList = [
     title: 'Some other food',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 55,
+    comments: 6,
+    like: 5,
   },
   {
     id: 3,
@@ -31,6 +37,9 @@ const foodList = [
     title: 'Some more food',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 30,
+    comments: 1,
+    like: 1,
   },
   {
     id: 4,
@@ -39,6 +48,9 @@ const foodList = [
     title: 'Food',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 40,
+    comments: 4,
+    like: 5,
   },
   {
     id: 5,
@@ -47,6 +59,9 @@ const foodList = [
     title: 'Some kind of food',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 35,
+    comments: 0,
+    like: 2,
   },
   {
     id: 6,
@@ -55,6 +70,9 @@ const foodList = [
     title: 'Food',
     rating: 0,
     text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tenetur ducimus voluptas beatae.',
+    time: 55,
+    comments: 0,
+    like: 3,
   },
 ];
 
@@ -69,6 +87,9 @@ const CardList = () => {
           title={food.title}
           rating={food.rating}
           text={food.text}
+          comments={food.comments}
+          like={food.like}
+          time={food.time}
         />
       ))}
     </StyledDiv>

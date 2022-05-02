@@ -21,6 +21,8 @@ const StyledInput = styled.input`
 const StyledButton = styled.button`
   padding: 8px 16px;
   background-color: black;
+  color: white;
+  border: none;
 `;
 
 const MainPage = () => {
@@ -28,7 +30,9 @@ const MainPage = () => {
     <StyledMain>
       <StyledDiv>
         <StyledInput type='text' placeholder='Recipe Search' />
-        <StyledButton>Sr</StyledButton>
+        <StyledButton>
+          <i class='fa fa-search' aria-hidden='true'></i>
+        </StyledButton>
       </StyledDiv>
       <CardList />
     </StyledMain>

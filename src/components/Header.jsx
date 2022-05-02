@@ -11,7 +11,7 @@ const StyledDiv = styled.div`
 const StyledBtn = styled.button`
   padding: 8px;
   border-radius: 15px;
-  background-color: tomato;
+  background-color: #b63d28;
   border: none;
   font-weight: bold;
   color: white;

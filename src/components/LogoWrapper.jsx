@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
 const StyledDiv = styled.div`
+  border-bottom: 1px solid gray;
   display: flex;
   justify-content: center;
-  border-bottom: 1px solid gray;
-  padding-bottom: 10px;
+  padding: 10px 0;
 `;
 
 const StyledImg = styled.img`

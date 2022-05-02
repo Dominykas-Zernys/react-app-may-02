@@ -5,7 +5,7 @@ const StyledDiv = styled.div`
   justify-content: center;
   align-items: center;
   height: 120px;
-  background-color: tomato;
+  background-color: #b63d28;
 `;
 
 const StyledH2 = styled.h2`
